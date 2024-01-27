@@ -1,2 +1,3 @@
-# codability
-Macros to help with Swift Codable conformance
+# Codability
+
+Macros to help with Swift Codable conformance.
