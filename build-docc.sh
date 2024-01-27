@@ -10,4 +10,4 @@ xcrun docc process-archive transform-for-static-hosting \
     --output-path ".docs" \
     --hosting-base-path "Codability"
 
-echo '<script>window.location.href += "documentation/sqlight"</script>' > .docs/index.html
+echo '<script>window.location.href += "documentation/codability"</script>' > .docs/index.html

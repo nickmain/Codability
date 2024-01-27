@@ -101,7 +101,7 @@ final class CodingKeysTests: XCTestCase {
         #endif
     }
 
-    func testDiagnostics() {
+    func testDiagnostics() throws {
         #if canImport(CodabilityMacros)
 
         diagnosticTest(nil, "CodingKeys needs a coding key string", "Add a coding key string", .error, unexpanded)
