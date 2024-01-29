@@ -32,6 +32,7 @@ let package = Package(
         .testTarget(
             name: "CodabilityTests",
             dependencies: [
+                "Codability",
                 "CodabilityMacros",
                 .product(name: "SwiftSyntaxMacrosTestSupport", package: "swift-syntax"),
             ]
