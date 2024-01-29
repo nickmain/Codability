@@ -4,7 +4,7 @@ import Foundation
 
 /// Error thrown when a URL cannot be decoded from a String
 public struct UncorrectableBadURL: Error {
-    let url: String
+    public let url: String
 }
 
 extension URL: Transcodability {
